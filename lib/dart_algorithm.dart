@@ -1,8 +1,6 @@
-/// Support for doing something awesome.
-///
 /// More dartdocs go here.
 library dart_algorithm;
 
-export 'src/dart_algorithm_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/link_list/link_list.dart';
+export 'src/queue/queue.dart';
+export 'src/stack/stack.dart';
