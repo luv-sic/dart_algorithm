@@ -1,12 +1,13 @@
-class Stack<T> {
+class Queue<T> {
   List<T> items = [];
-  void push(T value) {
+  void enqueue(T value) {
     items.add(value);
   }
 
-  T shift() {
-    return items.removeAt(0);
+  T dequeue() {
+    return items.removeLast();
   }
+
   @override
   String toString() {
     return items.join('');
