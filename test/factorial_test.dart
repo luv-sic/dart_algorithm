@@ -4,9 +4,9 @@ import 'package:test/test.dart';
 void main() {
   group('factorial tests', () {
     test('factorial', () {
-      expect(fibonacci(2), [0, 1]);
-      expect(fibonacci(3), [0, 1, 1]);
-      expect(fibonacci(13), [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]);
+      expect(factorial(2), 2);
+      expect(factorial(3), 6);
+      expect(factorial(6), 720);
     });
   });
 }
