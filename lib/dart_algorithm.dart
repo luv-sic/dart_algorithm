@@ -8,3 +8,4 @@ export 'src/factorial.dart';
 export 'src/sort.dart';
 export 'src/permutation.dart';
 export 'src/binary.dart';
+export 'src/lru.dart';
