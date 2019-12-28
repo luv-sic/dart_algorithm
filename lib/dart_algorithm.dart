@@ -7,3 +7,4 @@ export 'src/fibonacci.dart';
 export 'src/factorial.dart';
 export 'src/sort.dart';
 export 'src/permutation.dart';
+export 'src/binary.dart';
